@@ -1,0 +1,137 @@
+body {
+    background-image: url('file:///C:/Users/Ravi%20Anand/OneDrive/Desktop/Mini%20Project/Images/pngtree-white-abstract-vector-web-background-design-picture-image_1354906.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.topnav {
+    background-color: #dad5d5;
+    overflow: hidden;
+    padding: 50px 50px;
+}
+.topnav a {
+    float: right;
+    color: #3a36367c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #f7f7f1;
+    color: rgb(236, 211, 211);
+}
+.topnav a:hover,
+.topnav a:active{
+    color:rgb(13, 39, 39);
+}
+h1{
+    color: black;
+    font-size: 50px;
+    line-height: 64px;
+}
+ul {
+    list-style-type: none;
+  }
+  * {box-sizing:border-box}
+.slideshow-container {
+    width: 1000px;
+    position: relative;
+    margin: auto;
+}
+  .mySlides {
+    display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+form {
+    border: 4px solid #f1f1f1;
+  }
+  
+
+  .container {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+
+  input[type=submit] {
+    background-color: #cbf11f;
+    color: rgb(7, 7, 7);
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
